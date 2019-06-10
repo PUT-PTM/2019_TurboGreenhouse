@@ -82,6 +82,8 @@ Import project to System Workbench for STM32 and build program. If everything is
 
 - Light intensity digital sensor TSL2581FN documentation:  https://www.waveshare.com/w/upload/6/69/TSL2580-81_DS000417_1-00.pdf
 - MainCode: https://github.com/ArkadiuszDokowicz/GreenHause/blob/master/Src/main.c
+  or
+  https://github.com/PUT-PTM/2019_TurboGreenhouse/blob/master/Src/main.c
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
