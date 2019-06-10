@@ -94,7 +94,7 @@ Import project to System Workbench for STM32 and build program. If everything is
 
 - Maciej Anglart
 - Arkadiusz Dokowicz
-- Mi³osz Szkudlarek
+- Miłosz Szkudlarek
 
 The project was conducted during the Microprocessor Lab course held by the
 Institute of Control and Information Engineering, Poznan University of Technology.
