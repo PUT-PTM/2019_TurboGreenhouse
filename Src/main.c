@@ -200,7 +200,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 			absorptionCounter++;
        }
 
-	// WYSWIETLANIE WARTOŒCI
+	// WYSWIETLANIE WARTOÂŒCI
 	if(htim->Instance == TIM2)
 	   	{
 		if(segmentIndex==0){
@@ -285,15 +285,6 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 			}
 	   	}
 
-       //CZAS PODLEWANIA PRZEZ POMPE
-       if(htim->Instance == TIM3)
-        {
-             /*watering_timer++;
-             if(watering_timer >= 10){
-            	 HAL_TIM_Base_Stop_IT(&htim3); //PO 10 SEKUNDACH PODLEWANIA POMPA SIE WYLACZA
-            	 HAL_TIM_Base_Start_IT(&htim4); //ODPALAMY TIMER ODLICZAJACY CZAS
-             }*/
-        }
 }
 
 void I2C_DEV_Write(uint16_t I2C_Addr,uint16_t Register_Addr,uint8_t Register_Data)
@@ -427,11 +418,6 @@ int main(void)
 		  wateringCounter = 0;
 	  }
 
-	  if(liquid_level < 2000)
-	  {
-		  //ALARM JAKIS
-	  }
-
 	  //CONFIRMED
 	  if(lightIntensity < 5000)
 	  {
@@ -442,7 +428,7 @@ int main(void)
 		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, GPIO_PIN_SET);
 	  }
 
-	  //Odczyt natê¿enia œwiat³a
+	  //Odczyt natÃªÂ¿enia ÂœwiatÂ³a
 	  SET_Interrupt_Threshold(2000,50000);
 	  lightIntensity = getLightIntensityValue();
 	  HAL_Delay(500);
