@@ -2,11 +2,13 @@
 
 ## Overview
 
-This is a System which allows you not to worry about future of your plants. It has autonomic water pump system which is based on humidity sensor, also light is referenced to illumination sensor. You will be informed if the watertank catches critical level.
+This is a System which allows you not to worry about the future of your plants. It has autonomic water pump system which is based on humidity sensor, also light is referenced to illumination sensor. You will be informed if the water tank catches critical level.
+Check how it works:
+https://www.youtube.com/watch?v=TIOnSOJAFo8&feature=share&fbclid=IwAR34s7g3lrFZG73oF1TPx-IbrAeFynR7jkqzjNKeq1UV6tO8Oy1od5gEBRM
 
 ## Description
 
-The system is equipped light sensor, humidity sensor and autonomic waterpump system which collects measurements every second, to make the perfect conditions for your plants. The algorithm of actions is very simple. Is too dark? Inteliligent Greenhouse (next. IG) will turn the ligth on. The soil moisture is too low? IG will pump some water. Keep calm, IG gives the water in small portions and wait some time for next result from sensor to awoid making the ground too wet. The water level in canister is displayed by value between 0.000 and 1.000
+The system is equipped with light sensor, humidity sensor and autonomic water pump system which collects measurements every second, to make the perfect conditions for your plants. The algorithm of actions is very simple. Is too dark? Intelligent Greenhouse (next. IG) will turn the light on. The soil moisture is too low? IG will pump some water. Keep calm, IG gives the water in small portions and wait some time for next result from sensor to avoid making the ground too wet. The water level in canister is displayed by value between 0 - 1.000
 
 #### Relevant software:
 
@@ -46,7 +48,7 @@ The system is equipped light sensor, humidity sensor and autonomic waterpump sys
 - Working Voltage: 4v-12V
 - Working Current: 0.8A
 - Motor Diameter: 27mm
-- Water Pump lenght: 52mm
+- Water Pump length: 52mm
 - Drain Hole: 4mm
 
 ## How to run
@@ -82,8 +84,6 @@ Import project to System Workbench for STM32 and build program. If everything is
 
 - Light intensity digital sensor TSL2581FN documentation:  https://www.waveshare.com/w/upload/6/69/TSL2580-81_DS000417_1-00.pdf
 - MainCode: https://github.com/ArkadiuszDokowicz/GreenHause/blob/master/Src/main.c
-  or
-  https://github.com/PUT-PTM/2019_TurboGreenhouse/blob/master/Src/main.c
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
@@ -100,3 +100,4 @@ The project was conducted during the Microprocessor Lab course held by the
 Institute of Control and Information Engineering, Poznan University of Technology.
 
 Supervisor: Adam Bondyra
+
